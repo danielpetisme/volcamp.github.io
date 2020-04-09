@@ -1,33 +1,32 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
-  bg_image: "images/banner/banner-2.jpg"
-  date_time : "November 12, at 10.00am"
+  title : "L'éruption des Techs"
+  bg_image: "images/banner/chainedespuys.jpg"
+  date_time : "15- 16 Octobre 2020"
   button:
-    enable : "Discover more"
+    enable : false
     label : "Discover more"
     link : "service"
 
 ########################## timer #################################
 timer:
   enable : true
-  title : "**Count the day** <br> until conference start"
+  title : "Eruption des Techs dans: "
   # set timer
   year: "2020"
-  month: "09"
-  day: "01"
-  hour: "01"
+  month: "10"
+  day: "15"
+  hour: "08"
 
 ############################## Event ##############################
 event:
-  enable : true
-  title_outline : "event"
-  title : "The New Era of Tech Companies"
+  enable : false
+  title_outline : ""
+  title : "Volcamp"
   image_back : "images/about/h1-gallery-img-7.jpg"
   image_front : "images/about/main-home-img-1.jpg"
-  content : "Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum
-              auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursusa sit nibh vel velit."
+  content : ""
   button:
     enable : true
     label : "Discover More"
@@ -35,9 +34,9 @@ event:
 
 ######################### Call to action #########################
 cta:
-  enable : true
-  subtitle : "10% Sale offer for early birds"
-  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
+  enable : false
+  subtitle : ""
+  title : "Volcamp, c'est 2 jours de conférence au cœur des volcans d'Auvergne faite pour les passionnés de technologie, de développement et de terroir."
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
@@ -49,33 +48,33 @@ feature:
   enable: true
   feature_item: 
     # feature item loop
-    - name : "Valuable Insight"
-      icon : "tf-ion-android-microphone"
-      content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
+    - name : "Participants"
+      image : "images/participants.png"
+      content : ""
       
     # feature item loop
-    - name : "Global Audience"
-      icon : "tf-ion-android-globe"
-      content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
+    - name : "Speakers"
+      image : "images/speakers.png"
+      content : ""
       
     # feature item loop
-    - name : "Great Community"
-      icon : "tf-ion-android-share"
-      content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+    - name : "Terroir"
+      image : "images/terroir.png"
+      content : ""
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable : false
   # schedule data comes from "schedule.yml" file
 
 ####################### pricing #############################
 pricing:
-  enable : true
+  enable : false
   # pricing data comes from "pricing.yml" file
 
 ########################## speaker ##########################
 speaker:
-  enable : true
+  enable : false
   title_outline : "Speakers"
   title : "Who're speaking"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
@@ -83,7 +82,7 @@ speaker:
 
 ######################### sponsor ############################
 sponsor:
-  enable :  true
+  enable : false
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:
@@ -151,7 +150,7 @@ sponsor:
   
   # call to action in sponsor
   sponsorship:
-    enable : true
+    enable : false
     title : "Want to be a sponsor ?"
     #button
     label : "apply now"
@@ -160,10 +159,10 @@ sponsor:
 ################################ venue ########################
 venue:
   enable : true
-  title : "Venue location"
-  image : "images/bg/cta-bg.jpg"
-  date : "18 - 21 December, 2019"
-  location : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
+  title : "Hall 32"
+  image : "images/bg/hall32.jpg"
+  date : "15 - 16 Octobre, 2020"
+  location : "32 Rue du Clos Four <br> 63100 Clermont-Ferrand"
   button: 
     enable : true
     label : "View Map location"
@@ -171,7 +170,7 @@ venue:
 
 ############################### Blog ######################################
 blog:
-  enable : true
+  enable : false
   title_outline : "News"
   title : "Latest News"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.org"
-title = "Vixcon"
+title = "VolcampIO"
 theme = "vixcon-hugo"
 # post pagination
 paginate = "4"
@@ -44,45 +44,61 @@ link = "plugins/google-map/map.js"
 ############################## navigation ###############################
 [menu]
     
+#  [[menu.main]]
+#  name = "About"
+#  URL = "about"
+# weight = 2
+
   [[menu.main]]
-  name = "About"
-  URL = "about"
+  name = "Agenda"
+  URL = "schedule"
   weight = 2
-  
+
   [[menu.main]]
   name = "Speakers"
   URL = "speaker"
   weight = 3
 
   [[menu.main]]
+  name = "Sponsors"
+  URL = "#"
   weight = 4
-  name = "Pages"
-  hasChildren = true
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Tickets"
-    URL = "pricing"
+  [[menu.main]]
+  name = "Team"
+  URL = "#"
+  weight = 4
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Blog"
-    URL = "blog"
+#  [[menu.main]]
+#  weight = 4
+#  name = "Pages"
+#  hasChildren = true
+#
+#    [[menu.main]]
+#    parent = "Pages"
+#    name = "Tickets"
+#    URL = "pricing"
+#
+#    [[menu.main]]
+#    parent = "Pages"
+#    name = "Blog"
+#    URL = "blog"
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Schedule"
-    URL = "schedule"
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 5
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "FAQ"
-    URL = "faq"
-    
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 5
+  weight = 6
+
+  [[menu.main]]
+  name = "CFP"
+  URL = "http://cfp.volcamp.io"
+  weight = 7
+
 
 #################### default parameters ################################
 [params]
@@ -107,14 +123,14 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Get Ticket"
 link = "pricing"
 
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -130,25 +146,12 @@ map_marker = "images/marker.png"
 
 ############################# social icon ############################
 [[params.social]]
-icon = "tf-ion-social-facebook"
-link = "#"
-
-[[params.social]]
 icon = "tf-ion-social-twitter"
-link = "#"
+link = "twitter.com/VolcampIO/"
 
 [[params.social]]
 icon = "tf-ion-social-linkedin"
-link = "#"
-
-[[params.social]]
-icon = "tf-ion-social-pinterest"
-link = "#"
-
-[[params.social]]
-icon = "tf-ion-social-rss"
-link = "#"
-
+link = "https://www.linkedin.com/company/42349413"
 
 ################################### English language #####################################
 [Languages.en]
@@ -158,19 +161,19 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
+footer_content = "In truffade we trust."
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Geek et Terroir."
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-# footer content
-footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+#[Languages.fr]
+#languageName = "Fr"
+#languageCode = "fr-fr"
+#contentDir = "content/french"
+##weight = 2
+#home = "Accueil"
+## footer content
+#footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
+## copyright
+#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
